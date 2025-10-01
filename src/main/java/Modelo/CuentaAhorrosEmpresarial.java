@@ -9,9 +9,11 @@ package Modelo;
  * @author Miguel
  */
 public class CuentaAhorrosEmpresarial extends CuentaAhorros{
+    int nit;
     
-    public CuentaAhorrosEmpresarial(String nombre, String codigo, int saldo) {
+    public CuentaAhorrosEmpresarial(String nombre, int nit, String codigo, int saldo) {
         super(nombre, codigo, saldo);
+        this.nit = nit;
     }
     
 }
