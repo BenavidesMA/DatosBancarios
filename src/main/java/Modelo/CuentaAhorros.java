@@ -43,5 +43,8 @@ public class CuentaAhorros {
         this.saldo = saldo;
     }
     
-    
+    public String tipoCuenta(){
+    String message = "Cuenta";
+    return message;
+    }
 }

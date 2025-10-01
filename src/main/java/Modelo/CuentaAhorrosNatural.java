@@ -14,4 +14,10 @@ public class CuentaAhorrosNatural extends CuentaAhorros {
         super(nombre, codigo, saldo);
     }
     
+    @Override
+    
+    public String tipoCuenta(){
+    String message = "Cuenta Natural";
+    return message;
+    }
 }

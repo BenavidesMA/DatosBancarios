@@ -15,5 +15,16 @@ public class CuentaAhorrosEmpresarial extends CuentaAhorros{
         super(nombre, codigo, saldo);
         this.nit = nit;
     }
+
+    public int getNit() {
+        return nit;
+    }
+    
+    @Override
+    
+    public String tipoCuenta(){
+    String message = "Cuenta Juridica";
+    return message;
+    }
     
 }
