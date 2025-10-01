@@ -11,6 +11,6 @@ package Vista;
 public class DatosBancarios {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Datos Bancarios");
     }
 }
